@@ -1,10 +1,18 @@
-
+import Login from "./Usercomponent";
+import Todo from "./Task";
+import { Profile,Setting} from "./Usercomponent";
 function App(){//these are components that usally start with captial letters and we can write html code in this 
+  //  alert(sum());
   return <div>
+    <Todo/>
+    <Login/>
+    <Profile/>
+    <Setting/>
     <h1> this is my app component</h1>
     <Fruit/>
     <Color/>
-    <sum/>
+  
+   
   </div>
 }
 function sum(){ // this is a function usally start with small letter 
