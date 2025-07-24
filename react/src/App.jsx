@@ -1,10 +1,12 @@
 import Login from "./Usercomponent";
 import Todo from "./Task";
 import Lec1 from "./Lec1";
+import Clickevent from "./Clickevent";
 import { Profile,Setting} from "./Usercomponent";
 function App(){//these are components that usally start with captial letters and we can write html code in this 
   //  alert(sum());
   return <div>
+    <Clickevent/>
     <Lec1/>
     <Todo/>
     <Login/>
