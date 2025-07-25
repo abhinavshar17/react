@@ -13,6 +13,7 @@ function Clickevent() {
             <button onClick={() => {
                 callfun(); 
                 apple();
+                banana();
             }}>
                 Click Me
             </button>
